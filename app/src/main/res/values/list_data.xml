@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="equip">
+        <item>Ar-Condicionado, Quarto de Wendel, 10/12/2016, 3 Meses</item>
+        <item>Geladeira, Cozinha, 20/10/2016, 6 Meses</item>
+        <item>Notebook, Escritório, 15/01/2017, 5 Meses</item>
+        <item>Microondas, Cozinha, 20/09/2016, 8 Meses</item>
+        <item>Liquidificador, Cozinha, 05/01/2017, 5 Meses</item>
+    </string-array>
+    <string-array name="px_manut">
+        <item>10/03/2017 - Ar-Condicionado</item>
+        <item>20/04/2017 - Geladeira</item>
+        <item>15/05/2017 - Notebook</item>
+        <item>20/05/2017 - Microondas</item>
+        <item>05/06/2017 - Liquidificador</item>
+    </string-array>
+    <string-array name="equips">
+        <item>ArCondicionado</item>
+        <item>Geladeira</item>
+        <item>Liquidificador</item>
+        <item>Microondas</item>
+        <item>Notebook</item>
+    </string-array>
+    <string name="ArCondicionado">FREQUÊNCIA DA LIMPEZA DOS FILTROS\n\nOs filtros devem ser limpos a cada duas vezes por semana. Esse processo pode ser realizado por você mesmo: lave a tela interna com água corrente e termine a higienização com um pano macio e seco. Com isso você garante que o nível de refrigeração fique estável e evita a sobrecarga do sistema interno.\nJá a troca dos filtros deve ocorrer a cada dois meses e é recomendado que se compre um filtro igual ao original. Se você não souber realizar a troca, um técnico pode resolver o seu problema.\n\nMANUTENÇÃO DE AR-CONDICIONADO\n\nÉ preciso realizar uma manutenção anual no seu ar-condicionado, feita por técnicos especializados. Eles fazem a higienização dos dutos com produtos específicos, eliminando bactérias e fungos. Pode também haver a necessidade de troca de peças internas que estejam com mau funcionamento ou defeito.\n\nANÁLISE DO LÍQUIDO DO REFRIGERADOR\n\nÉ importante ainda ficar de olho em vazamentos do líquido do refrigerador. Se isso acontecer, peça a um técnico para fazer a manutenção do equipamento o mais rápido possível, pois o ar deixa de ser resfriado e o gasto de energia é muito maior.</string>
+    <string name="Geladeira">Dica Geladeira</string>
+    <string name="Liquidificador">Dica Liquidificador</string>
+    <string name="Microondas">Dica Microondas</string>
+    <string name="Notebook">Dica Notebook</string>
+</resources>

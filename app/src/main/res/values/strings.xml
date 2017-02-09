@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hora da Limpeza!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="navigation_drawer_open">Abrir Gaveta de Navegação</string>
+    <string name="navigation_drawer_close">Fechar Gaveta de Navegação</string>
+    <string name="welcome">Bem Vindos ao Hora da Limpeza!\n\nEsse app é um trabalho conjunto de Carlos Mendes, Lizandra Carilo, Rafael Brasileiro, Vinícius Brito e Wendel Macedo.\nApp para fins educativos.</string>
+    <string name="dica1">1-Frequência da limpeza dos filtros
+    Os filtros devem ser limpos a cada duas vezes por semana. Esse processo pode ser realizado por você mesmo: lave a tela interna com água corrente e termine a higienização com um pano macio e seco. Com isso você garante que o nível de refrigeração fique estável e evita a sobrecarga do sistema interno.
+    Já a troca dos filtros deve ocorrer a cada dois meses e é recomendado que se compre um filtro igual ao original. Se você não souber realizar a troca, um técnico pode resolver o seu problema.
+
+    2–Manutenção de ar-condicionado
+    É preciso realizar uma manutenção anual no seu ar-condicionado, feita por técnicos especializados — eles fazem a higienização dos dutos com produtos específicos, eliminando bactérias e fungos. Pode também haver a necessidade de troca de peças internas que estejam com mau funcionamento ou defeito.
+
+    3–Análise do líquido do refrigerador
+    É importante ainda ficar de olho em vazamentos do líquido do refrigerador. Se isso acontecer, peça a um técnico para fazer a manutenção do equipamento o mais rápido possível, pois o ar deixa de ser resfriado e o gasto de energia é muito maior.</string>
+    <string name="title_activity_px_manut">Próximas Manutenções</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_dica_exib">Dicas</string>
+    <string name="title_activity_equips">Equipamentos</string>
+    <string name="title_activity_add_equip">Adicionar Equipamento</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wendel.horadalimpeza">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".TelaInicial"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdicionarEquipamento"
+            android:label="@string/title_activity_add_equip"/>
+        <activity
+            android:name=".Equips"
+            android:label="@string/title_activity_equips" >
+        </activity>
+        <activity android:name=".Dicas" />
+        <activity android:name=".Config" />
+        <activity
+            android:name=".PxManut"
+            android:label="@string/title_activity_px_manut"/>
+        <activity
+            android:name=".SingleListItem"
+            android:label="Single Item Selected" />
+        <activity
+            android:name=".DicaExib"
+            android:label="@string/title_activity_dica_exib"/>
+    </application>
+
+</manifest>
