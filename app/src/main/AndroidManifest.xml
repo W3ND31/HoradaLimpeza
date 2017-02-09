@@ -25,8 +25,12 @@
             android:name=".Equips"
             android:label="@string/title_activity_equips" >
         </activity>
-        <activity android:name=".Dicas" />
-        <activity android:name=".Config" />
+        <activity
+            android:name=".Dicas"
+            android:label="@string/title_activity_dica"/>
+        <activity
+            android:name=".Config"
+            android:label="@string/title_activity_config"/>
         <activity
             android:name=".PxManut"
             android:label="@string/title_activity_px_manut"/>

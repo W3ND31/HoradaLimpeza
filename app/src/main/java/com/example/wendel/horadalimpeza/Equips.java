@@ -3,6 +3,7 @@ package com.example.wendel.horadalimpeza;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +24,15 @@ public class Equips extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.equips);
         ListView listView = (ListView)findViewById(android.R.id.list);
+        final Intent it = new Intent(this, AdicionarEquipamento.class);
 
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(it);
+            }
+        });
 //         Guardando resources de String no Array
         String[] equips = getResources().getStringArray(R.array.equip);
 //         Amarrando o Array no ListAdapter

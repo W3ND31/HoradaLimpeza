@@ -8,15 +8,6 @@
         android:layout_height="wrap_content"
         android:textSize="14sp">
 
-        <TextView android:id="@+id/single_list_item_label"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:padding="10dip"
-            android:textColor="#ffffff"
-            android:text="Dicas de Manutenção" />
-
         <ListView
             android:id="@android:id/list"
             android:layout_width="match_parent"

@@ -21,6 +21,8 @@
 
     <string name="action_example">Example action</string>
     <string name="title_activity_dica_exib">Dicas</string>
+    <string name="title_activity_dica">Dicas de Manutenção</string>
+    <string name="title_activity_config">Configuração</string>
     <string name="title_activity_equips">Equipamentos</string>
     <string name="title_activity_add_equip">Adicionar Equipamento</string>
 </resources>
