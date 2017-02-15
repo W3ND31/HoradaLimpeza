@@ -20,26 +20,28 @@
         </activity>
         <activity
             android:name=".AdicionarEquipamento"
-            android:label="@string/title_activity_add_equip"/>
+            android:label="@string/title_activity_add_equip" />
         <activity
             android:name=".Equips"
-            android:label="@string/title_activity_equips" >
-        </activity>
+            android:label="@string/title_activity_equips" />
         <activity
             android:name=".Dicas"
-            android:label="@string/title_activity_dica"/>
-        <activity
-            android:name=".Config"
-            android:label="@string/title_activity_config"/>
+            android:label="@string/title_activity_dica" />
         <activity
             android:name=".PxManut"
-            android:label="@string/title_activity_px_manut"/>
+            android:label="@string/title_activity_px_manut" />
         <activity
             android:name=".SingleListItem"
             android:label="Single Item Selected" />
         <activity
             android:name=".DicaExib"
-            android:label="@string/title_activity_dica_exib"/>
+            android:label="@string/title_activity_dica_exib" />
+        <activity
+            android:name=".Contatos"
+            android:label="@string/title_activity_contat"/>
+        <activity
+            android:name=".Config"
+            android:label="@string/title_activity_config" />
     </application>
 
 </manifest>

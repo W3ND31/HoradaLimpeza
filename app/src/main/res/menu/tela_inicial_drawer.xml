@@ -4,23 +4,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_ad_equip"
-            android:icon="@android:drawable/ic_menu_add"
+            android:icon="@drawable/ic_plus_circle"
             android:title="Adicionar Equipamento" />
         <item
             android:id="@+id/nav_equip"
-            android:icon="@android:drawable/ic_menu_search"
+            android:icon="@drawable/ic_archive"
             android:title="Equipamentos" />
         <item
             android:id="@+id/nav_px_manut"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@drawable/ic_calendar_clock"
             android:title="Proximas Manutenções" />
         <item
             android:id="@+id/nav_dicas"
-            android:icon="@android:drawable/ic_menu_help"
+            android:icon="@drawable/ic_alert_circle"
             android:title="Dicas" />
         <item
+            android:id="@+id/nav_contat"
+            android:icon="@drawable/ic_person_box"
+            android:title="Contatos" />
+        <item
             android:id="@+id/nav_config"
-            android:icon="@android:drawable/ic_menu_manage"
+            android:icon="@drawable/ic_cog"
             android:title="Configurações" />
-    </group>s
+    </group>
 </menu>

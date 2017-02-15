@@ -89,6 +89,9 @@ public class TelaInicial extends AppCompatActivity
         } else if (id == R.id.nav_config) {
             Intent it = new Intent(this, Config.class);
             startActivity(it);
+        }else if (id == R.id.nav_contat) {
+            Intent it = new Intent(this, Contatos.class);
+            startActivity(it);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
