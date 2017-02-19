@@ -21,7 +21,6 @@ public class DicaExib extends AppCompatActivity {
         String dica = i.getStringExtra("dica");
         txtequip.setText(dica);
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem)
     {
@@ -33,5 +32,6 @@ public class DicaExib extends AppCompatActivity {
                 return super.onOptionsItemSelected(menuItem);
         }
     }
+
 
 }

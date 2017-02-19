@@ -4,98 +4,16 @@
     <string name="navigation_drawer_open">Abrir Gaveta de Navegação</string>
     <string name="navigation_drawer_close">Fechar Gaveta de Navegação</string>
     <string name="welcome">Bem Vindos ao Hora da Limpeza!\n\nEsse app é um trabalho conjunto de Carlos Mendes, Lizandra Carilo, Rafael Brasileiro, Vinícius Brito e Wendel Macedo.\nApp para fins educativos.</string>
-    <string name="dica1">1-Frequência da limpeza dos filtros
-    Os filtros devem ser limpos a cada duas vezes por semana. Esse processo pode ser realizado por você mesmo: lave a tela interna com água corrente e termine a higienização com um pano macio e seco. Com isso você garante que o nível de refrigeração fique estável e evita a sobrecarga do sistema interno.
-    Já a troca dos filtros deve ocorrer a cada dois meses e é recomendado que se compre um filtro igual ao original. Se você não souber realizar a troca, um técnico pode resolver o seu problema.
-
-    2–Manutenção de ar-condicionado
-    É preciso realizar uma manutenção anual no seu ar-condicionado, feita por técnicos especializados — eles fazem a higienização dos dutos com produtos específicos, eliminando bactérias e fungos. Pode também haver a necessidade de troca de peças internas que estejam com mau funcionamento ou defeito.
-
-    3–Análise do líquido do refrigerador
-    É importante ainda ficar de olho em vazamentos do líquido do refrigerador. Se isso acontecer, peça a um técnico para fazer a manutenção do equipamento o mais rápido possível, pois o ar deixa de ser resfriado e o gasto de energia é muito maior.</string>
     <string name="title_activity_px_manut">Próximas Manutenções</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-
-    <string name="action_example">Example action</string>
     <string name="title_activity_dica_exib">Dicas</string>
     <string name="title_activity_dica">Dicas de Manutenção</string>
-    <string name="title_activity_config">Configuração</string>
+    <string name="title_activity_config">Configurações</string>
     <string name="title_activity_equips">Equipamentos</string>
-    <string name="title_activity_add_equip">Adicionar Equipamento</string>
+    <string name="title_activity_add_equip">Adicionar Equipamentos</string>
     <string name="title_activity_contat">Contatos</string>
+    <string name="switch_1">Tema Escuro</string>
+    <string name="switch_2">Ativar Notificações</string>
+    <string name="action_example"></string>
 
-    <!-- Strings related to Settings -->
 
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
-
-    <string-array name="list_preference_entries">
-        <item>Entry 1</item>
-        <item>Entry 2</item>
-        <item>Entry 3</item>
-    </string-array>
-
-    <string-array name="list_preference_entry_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="multi_select_list_preference_default_value" />
-
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-
-    <string name="pref_title_vibrate">Vibrate</string>
 </resources>
