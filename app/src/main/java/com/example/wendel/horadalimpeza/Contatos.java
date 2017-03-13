@@ -27,28 +27,28 @@ public class Contatos extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 String equip = ((TextView) view).getText().toString();
-                if (equip.equals("ArCondicionado")){
+                if (equip.equals("Ar-Condicionado")){
                     String contat = getString(R.string.ContatArCondicionado);
                     Intent i = new Intent(getApplicationContext(),ContatExib.class);
                     i.putExtra("contat",contat);
                     startActivity(i);
                 }else if(equip.equals("Geladeira")){
-                    String contat = getString(R.string.Geladeira);
+                    String contat = getString(R.string.ContatGeladeira);
                     Intent i = new Intent(getApplicationContext(),ContatExib.class);
                     i.putExtra("contat",contat);
                     startActivity(i);
                 }else if(equip.equals("Liquidificador")){
-                    String contat = getString(R.string.Liquidificador);
+                    String contat = getString(R.string.ContatLiquidificador);
                     Intent i = new Intent(getApplicationContext(),ContatExib.class);
                     i.putExtra("contat",contat);
                     startActivity(i);
                 }else if(equip.equals("Microondas")){
-                    String contat = getString(R.string.Microondas);
+                    String contat = getString(R.string.ContatMicroondas);
                     Intent i = new Intent(getApplicationContext(),ContatExib.class);
                     i.putExtra("contat",contat);
                     startActivity(i);
                 }else if(equip.equals("Notebook")){
-                    String contat = getString(R.string.Notebook);
+                    String contat = getString(R.string.ContatNotebook);
                     Intent i = new Intent(getApplicationContext(),ContatExib.class);
                     i.putExtra("contat",contat);
                     startActivity(i);

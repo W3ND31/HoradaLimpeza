@@ -1,61 +1,111 @@
-<LinearLayout
-    android:orientation="vertical"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.design.widget.TextInputLayout
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textCapSentences|textAutoCorrect"
-        android:ems="10"
-        android:id="@+id/equip"
-        android:hint="Equipamento" />
-    </android.support.design.widget.TextInputLayout>
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/local"
-            android:hint="Local"
-            android:inputType="textCapSentences" />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/dt_u_man"
-            android:hint="Data da Ultima Manutenção"
-            android:inputType="date" />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/period"
-            android:hint="Periodicidade"
-            android:inputType="text" />
-    </android.support.design.widget.TextInputLayout>
-
-    <Button
-        android:text="Salvar"
+    <TextView
+        android:id="@+id/eqp_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/bt_salvar" />
+        android:layout_alignEnd="@+id/qtde"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Equipamento" />
 
+    <Spinner
+        android:id="@+id/pm_eqp_tx"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/eqp_text"
+        android:layout_alignParentStart="true" />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/pm_data_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Local"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/pm_eqp_tx"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/dd"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Dia"
+        android:inputType="number"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/mm"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dd"
+        android:layout_toEndOf="@+id/dd"
+        android:ems="10"
+        android:hint="Mês"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/yyyy"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mm"
+        android:layout_toEndOf="@+id/mm"
+        android:ems="10"
+        android:hint="Ano (YYYY)"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/eq_period_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dd"
+        android:layout_marginTop="10dp"
+        android:text="Periodicidade"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/qtde"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Qtde"
+        android:inputType="number"
+        android:layout_below="@+id/eq_period_tx"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/dma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/qtde"
+        android:layout_toEndOf="@+id/dd"
+        android:layout_alignTop="@+id/qtde" />
+
+    <Button
+        android:id="@+id/bt_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Salvar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultima Manutenção"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pm_data_txt"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

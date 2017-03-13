@@ -31,7 +31,7 @@ public class Dicas extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 				String equip = ((TextView) view).getText().toString();
-                if (equip.equals("ArCondicionado")){
+                if (equip.equals("Ar-Condicionado")){
                     String dica = getString(R.string.ArCondicionado);
                     Intent i = new Intent(getApplicationContext(),DicaExib.class);
                     i.putExtra("dica",dica);
